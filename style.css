@@ -95,13 +95,25 @@ body:before{
     background-color: aqua;
 } */
 
+/* @media screen and (max-width:430px) {
+    .header-center{
+        margin: 90px;
+    }
+} */
+
 
 .header-right {
     /* background-color: aqua; */
     margin-right: 10px;
     height: 40px;
     width: 90px;
-
+}
+@media screen and (max-width:430px){
+    .header-right{
+        position: fixed;
+        top: 1%;
+        left: 77%;
+    }
 }
    
 
@@ -148,7 +160,8 @@ body:before{
 }
 @media screen and (max-width:430px){
     .nav{
-        margin-left: 5px;
+        margin: auto 30px;
+        margin-top: 15px;
         /* height: 50px; */
         /* width: 200px; */
     }
@@ -164,7 +177,7 @@ body:before{
 .nav > li {
    
     display: flex;
-    padding: 5px;
+    padding: 10px;
     
 }
 }
@@ -183,7 +196,7 @@ body:before{
 
 @media screen and (max-width: 430px){
 .nav > li >a {
-    font-size:21px;
+    font-size:22.5px;
 }
 }
 
