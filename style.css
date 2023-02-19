@@ -37,7 +37,7 @@ body:before{
 #header{
     /* position: sticky;  */
     /* top: -50px; */
-    height: 130px;
+    height: 20vh;
     width: 100%;
     /* padding: 15px; */
     display: flex;
@@ -46,36 +46,38 @@ body:before{
     background-color:rgba(238,255,255,0.95);
 }
 
-@media screen and(max-width:430px) {
+/* @media screen and(max-width:430px) {
     #header{
         /* height: 50px; */
         /* width: 100%; */
-        height: 70px;
+        /* height: 50vh; */
         /* display: flex; */
         /* justify-content:space-between; */
         /* align-items: center; */
-        background-color:rgba(238,255,255,0.95);
+        /* background-color:rgba(238,255,255,0.95);
     }
-}
+} */ 
 
 #header.HeightMin {
     position: fixed;
     z-index: 999; /*最前線 */
-    height: 65px;
+    height: 10vh;
     /* font-size: 10px; */
     animation: DownAnime 0.5s forwards;
     /*下から上に動く*/
 }
 
-@media screen and (max-width:430) {
+/* @media screen and (max-width:430) {
     #header.HeightMin{
-        height: 45px;
+        height: 10vh;
     }
-}
+} */
+
+
 @keyframes DownAnime {
     form{
         opacity: 0;
-        transform: translateY(-130px);
+        transform: translateY(10vh);
     }
     to {
         opacity: 1;
@@ -106,13 +108,7 @@ body:before{
     width: 90px;
 
 }
-    /* display: flex;
-    justify-content: space-between; */
- @media screen and (max-width:430px) {
-        .header-right {
-            /* height: 10px; */
-        }
-    } 
+   
 
 #logo{
     /* justify-content:left; */
@@ -130,7 +126,7 @@ body:before{
 
 @media screen and (max-width:430px){
  #logo{
-    width: 80px;
+    width: 85px;
     height: 75px;
     margin-left: 0;
 }
@@ -215,8 +211,8 @@ body:before{
 
 
 .search-btn {
-    width: 33px;
-    height: 33px;
+    width: 2vw;
+    height: 4vh;
     margin: 5px;
 }
 
@@ -255,7 +251,7 @@ body:before{
 
 .search-wrap form {
     position: relative;
-    height: 60px;
+    height: auto;
 }
 
 .search-wrap input {
@@ -264,14 +260,14 @@ body:before{
     color: black;
 }
 .search-wrap input[type="text"] {
-	width: 250px;
-	padding: 10px;
+	width: 40vw;
+	padding: 3%;
 	border: none;
 	border:1px solid #666;
 	transition: all 0.7s;
 	letter-spacing: 0.05em;
-    margin-top: 10px;
-}
+    /* margin-top: 10px;*/
+} 
 
 .search-wrap input[type="text"]:focus {
 	background:white;
@@ -342,17 +338,17 @@ body:before{
     /* position: absolute;
     top: 6px;
     right: 10px; */
-    width: 30px;
-    height: 30px;
+    width: 2vw;
+    height: 4vh;
     margin-right: 20px;
     /* margin-top: 40px; */
 } 
 
 .contents{
     visibility: hidden;
-    position: absolute;
-    right: 7px;
-    top: 47px;
+    position: fixed;
+    right: 1%;
+    top: 50%;
     background-color:rgba(255,255,255,0.9);
     width: 150px;
     height: 170px;
