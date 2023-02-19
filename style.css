@@ -153,8 +153,8 @@ body:before{
 @media screen and (max-width:430px){
     .nav{
         margin-left: 85px;
-        height: 50px;
-        width: 200px;
+        /* height: 50px; */
+        /* width: 200px; */
     }
 }
 
@@ -164,11 +164,15 @@ body:before{
     padding: 0 40px;
     /* background-color: #555555; */
 }
-@media screen and (max-width:430px){
-    .nav > li {
-        padding: 9px;
-    }
+@media screen and (max-width: 430px){
+.nav > li {
+   
+    display: flex;
+    padding: 0 4px;
+    
 }
+}
+
 
 .nav > li>a:active{
     color: #AAAAAA;
@@ -181,9 +185,11 @@ body:before{
     color: #666666;
 }
 
-
-
-
+@media screen and (max-width: 430px){
+.nav > li >a {
+    font-size:16px;
+}
+}
 
 
 /* 検索ボタン */
@@ -260,7 +266,7 @@ body:before{
     color: black;
 }
 .search-wrap input[type="text"] {
-	width: 40vw;
+	width: 50vw;
 	padding: 3%;
 	border: none;
 	border:1px solid #666;
@@ -843,20 +849,13 @@ footer {
    
 
     
-    .nav > li {
-        /* font-size: 20px; */
-        display: flex;
-        padding: 0 5px;
-        /* background-color: #555555; */
-    }
+   
     
     .nav > li>a:active{
         color: #AAAAAA;
     }
     
-    .nav > li >a {
-        font-size: 10.5px;
-    }
+    
 
     .intro > h1 {
         font-size: 75px;
