@@ -113,7 +113,7 @@ body:before{
     .header-right{
         position: fixed;
         top: 1%;
-        left: 77%;
+        left: 75%;
     }
 }
    
@@ -137,7 +137,7 @@ body:before{
     width: 85px;
     height: 75px;
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 }
 
@@ -161,8 +161,7 @@ body:before{
 }
 @media screen and (max-width:430px){
     .nav{
-        margin: auto 30px;
-        margin-top: 15px;
+        margin: 30px 30px 0 30px;
         /* height: 50px; */
         /* width: 200px; */
     }
@@ -197,7 +196,7 @@ body:before{
 
 @media screen and (max-width: 430px){
 .nav > li >a {
-    font-size:22.5px;
+    font-size:19px;
 }
 }
 
@@ -299,13 +298,21 @@ body:before{
  .search-wrap input[type="submit"] {
 	position: absolute;
 	top:0;
-    margin-top: 9px;
+    margin-top: 11px;
+    margin-right: 10px;
 	right:5px;
 	background:url("./img/search.png") no-repeat 15px center;/*虫眼鏡アイコンを背景に表示*/
-	background-size: 25px 25px;
-	width:40px;
+	background-size: 35px 35px;
+	width:50px;
 	height: 40px;
     border: none;
+}
+
+@media screen and (max-width:430px) {
+    .search-wrap input[type="submit"]{
+        margin: auto;
+        background-size: 25px 25px;
+    }
 }
 
 /*=======　閉じるための×ボタン　========*/
@@ -370,7 +377,7 @@ body:before{
     visibility: hidden;
     position: fixed;
     right: 1%;
-    top: 50%;
+    top: 10%;
     background-color:rgba(255,255,255,0.9);
     width: 150px;
     height: 170px;
