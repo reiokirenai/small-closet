@@ -93,13 +93,14 @@ body:before{
 
 /* .header-center{
     background-color: aqua;
+
 } */
 
-/* @media screen and (max-width:430px) {
+@media screen and (max-width:430px) {
     .header-center{
-        margin: 90px;
+        margin-right: 13px;
     }
-} */
+}
 
 
 .header-right {
@@ -177,7 +178,7 @@ body:before{
 .nav > li {
    
     display: flex;
-    padding: 7px;
+    padding: 0 8px;
     
 }
 }
