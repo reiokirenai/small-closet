@@ -105,9 +105,9 @@ body:before{
 
 .header-right {
     /* background-color: aqua; */
-    margin-right: 10px;
+    margin-right: 20px;
     height: 40px;
-    width: 90px;
+    /* width: 90px; */
 }
 @media screen and (max-width:430px){
     .header-right{
@@ -197,6 +197,7 @@ body:before{
 @media screen and (max-width: 430px){
 .nav > li >a {
     font-size:19px;
+    
 }
 }
 
@@ -226,8 +227,8 @@ body:before{
 
 
 .search-btn {
-    width: 2vw;
-    height: 4vh;
+    /* width: 2vw; */
+    height: 5vh;
     margin: 5px;
 }
 
@@ -355,7 +356,7 @@ body:before{
     /* position: absolute;
     top: 6px;
     right: 55px; */
-    width: 30px;
+    /* width: 30px; */
     height: 30px;
     margin: 5px;
     /* margin-top: 40px; */
@@ -367,9 +368,9 @@ body:before{
     /* position: absolute;
     top: 6px;
     right: 10px; */
-    width: 2vw;
+    /* width: 2vw; */
     height: 4vh;
-    margin-right: 20px;
+    margin: 5px 10px 5px 5px;
     /* margin-top: 40px; */
 } 
 
